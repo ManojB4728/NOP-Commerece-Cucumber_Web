@@ -30,7 +30,7 @@ Feature: Customer
     And Close browser
     
 @Smoke
- Scenario: Search customer By emaileId
+ Scenario: Search customer By first name and last name
     When User click on customers menu
     And Click on customers menu item
     And Enter customer firstname
